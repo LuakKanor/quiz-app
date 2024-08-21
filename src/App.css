@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+.layout {
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to right, #b8da81, #66cde4);
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Source Code Pro", monospace;
+}
+
+.header-font {
+  font-size: 50px;
+  text-align: center;
+}
+.header-font-medium {
+  font-size: 35px;
+  text-align: center;
+}
+
+@media only screen and (max-width: "576px") {
+  .header-font {
+    font-size: 30px;
+  }
+  .header-font-medium {
+    font-size: 22px;
+  }
+}

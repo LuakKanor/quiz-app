@@ -1,0 +1,11 @@
+.t-30 {
+  top: 25%;
+}
+
+.-translate-50 {
+  translate: -50%;
+}
+
+.name-input {
+  width: 300px !important;
+}
